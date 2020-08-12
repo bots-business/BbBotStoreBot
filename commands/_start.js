@@ -17,7 +17,6 @@ CMD*/
 Bot.sendMessage("🤝 Welcome to demo Bots Store");
 Bot.runCommand("/menu");
 
-
 function getGoods(){
   goods_id = params.split("order")[1]; 
   // load goods
@@ -29,7 +28,10 @@ function getGoods(){
   }
 }
 
-if(params.substr(0,5)=="order"){
+function handleDeepLink(){
+  // see https://help.bots.business/deep-linking-pass-any-params-on-bot-starting
+  if(!params){ return }
+  if(params.substr(0,5)!="order"){ return }
   var goods = getGoods();
 
   if(!goods){
@@ -43,3 +45,5 @@ if(params.substr(0,5)=="order"){
   
   Bot.run({ command: "/startOrder", options: goods });
 }
+
+handleDeepLink();

@@ -1,6 +1,19 @@
 # BbBotStoreBot - chat bot
 It is repository for chat bot: [@BbBotStoreBot](https://t.me/BbBotStoreBot)
 
+It is demo store for selling bots.
+It is created with Coinbase Lib.
+
+🤑 You can buy any kind of bots.
+
+⚠️ Of course, this is a demo store. All these bots are available for free in Bots.Business
+
+tags: #Coinbase, #DeepLinking, #InlineBot, #caching, #MultiCurrency, #beforeAllCommand
+
+![](https://i.imgur.com/QcsIcEx.png)
+
+
+
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
 
