@@ -11,7 +11,7 @@ CMD*/
 
 var currency_code = params;
 
-json = options.result;
+var json = options.result;
 
 var accounts = Bot.getProperty("CB-accounts");
 var account;
@@ -43,5 +43,3 @@ Bot.sendInlineKeyboard(
   "\n- will be replenished" +
   "\n- will be converted to dollars for the current time"
 );
-
-

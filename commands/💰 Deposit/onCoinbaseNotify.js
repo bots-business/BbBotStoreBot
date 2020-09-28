@@ -11,8 +11,8 @@ CMD*/
 
 Bot.sendMessage("We have notify from CoinBase");
 
-data = options;
+var dat = options;
 
 Bot.sendMessage(
-  JSON.stringify(data).substr(0, 1000)   // just first 1000 symbols
+  JSON.stringify(dat).substr(0, 1000)   // just first 1000 symbols
 )

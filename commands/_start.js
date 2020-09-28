@@ -18,7 +18,7 @@ Bot.sendMessage("🤝 Welcome to demo Bots Store");
 Bot.runCommand("/menu");
 
 function getGoods(){
-  goods_id = params.split("order")[1]; 
+  var goods_id = params.split("order")[1]; 
   // load goods
   var items = Bot.getProperty("goods");
   for(var ind in items){

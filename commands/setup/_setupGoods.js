@@ -209,4 +209,3 @@ goods = [{
 
 Bot.setProperty("goods", goods, "json");
 Bot.sendMessage("done")
-

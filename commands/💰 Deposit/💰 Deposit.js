@@ -9,7 +9,7 @@
   aliases: 
 CMD*/
 
-res = Libs.ResourcesLib.userRes("deposit");
+var res = Libs.ResourcesLib.userRes("deposit");
 
 Bot.sendKeyboard(
    "💳 Make payment, 📤 Withdraw,\n🔙 Back",

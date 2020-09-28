@@ -9,6 +9,5 @@
   aliases: 
 CMD*/
 
-data = options.result.data;
-Bot.setProperty("ratesBTCList", data, "json");
-
+var dat = options.result.data;
+Bot.setProperty("ratesBTCList", dat, "json");

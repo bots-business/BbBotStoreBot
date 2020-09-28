@@ -32,5 +32,3 @@ Libs.Coinbase.apiCall({
   path: "notifications",
   onSuccess: "onCheckPayment"
 })
-
-

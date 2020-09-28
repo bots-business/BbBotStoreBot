@@ -22,4 +22,3 @@ function getGoodsDescription(item){
   return "@" + item.name + " <b>" + item.price + "$ </b>" + "\n\n" +
     "<i>" + item.description + "</i> " + "<a href='" + getGoodsImg(item) + "'>" + item.price + "$ </a>";
 }
-

@@ -4,19 +4,16 @@
   need_reply: false
   auto_retry_time: 
   folder: Order
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
   aliases: 
 CMD*/
 
 User.clearCache("💰 Deposit");  // because deposit is changed
 
-res = Libs.ResourcesLib.userRes("deposit");
+var res = Libs.ResourcesLib.userRes("deposit");
 
-goods_cost = options["price"];
+var goods_cost = options["price"];
 if(!res.have(goods_cost)){
    Bot.sendMessage("You do not have " + goods_cost + "$. Please top up your deposit")
    return

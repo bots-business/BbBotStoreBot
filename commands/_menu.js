@@ -5,10 +5,7 @@
   auto_retry_time: 
   folder: 
   answer: 
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 🔙 back, cancel
 CMD*/
 
@@ -37,4 +34,3 @@ Api.sendMessage({
     ]
   }
 })
-
