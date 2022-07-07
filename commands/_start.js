@@ -14,6 +14,11 @@ This is bot example of:
   aliases: 
 CMD*/
 
+
+bot.command("start",  (ctx)  =>  {
+ctx.sendMessage("i m pro") 
+  } 
+
 Bot.sendMessage("🤝 Welcome to demo Bots Store");
 Bot.runCommand("/menu");
 
